@@ -1,0 +1,62 @@
+main {
+    .article {
+        display: flex;
+        width: 60%;
+        &__img {
+            min-width: 40%;
+            background-image: url("../src/assets/images/drawers.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+        &__contant {
+            background: var(--White-blue);
+            max-width: 60%;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+            padding: 30px;
+            h1 {
+                font-size: 2rem;
+                color: var(--Dark-blue);
+                font-family: 'Manrope', sans-serif;
+                font-weight: 700;
+            }
+            .title {
+                margin-top: 1.2rem;
+                font-size: 13px;
+                font-weight: 500;
+                font-family: 'Manrope', sans-serif;
+                
+
+            }
+            &__author {
+                margin-top: 1rem;
+                display: flex;
+                justify-content: space-between;
+                &__profile {
+                    display: flex;
+                    align-items: center;
+                    gap: 1.5rem;
+                    img {
+                        width: 40px;
+                        border-radius: 50%;
+                    }
+                    h5{
+                        max-width: 80%;
+                    }
+                }
+            }
+            .share{
+                padding: 0.8rem;
+                cursor: pointer;
+                &__btn{
+                    border-radius: 50%;
+                    padding: 0.5rem;
+                    border: none;
+                }
+            }
+        }
+    }
+}

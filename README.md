@@ -19,7 +19,7 @@
 |  ------------   |   --------------                    |
 |                 |                                     |
 |                 |                                     |
-|![](../article/src/assets/images/desktop_veiw.png)|![](../article/src/assets/images/mobile_view.png)    |
+|![](/src/assets/images/desktop_veiw.png)|![](src/assets/images/mobile_view.png)    |
 
 
 ### Links
@@ -53,7 +53,7 @@
 ## Author
 
 - Website - [Vicky Verma](https://github.com/code-nick)
-- Frontend Mentor - [@code-nick](https://www.frontendmentor.io/profile/code-nick)
+- Frontend Mentor - [@code-](https://www.frontendmentor.io/profile/code-nick)
 
 
 

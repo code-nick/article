@@ -17,8 +17,9 @@ main {
             border-top-right-radius: 8px;
             border-bottom-right-radius: 8px;
             padding: 35px;
+            position: relative;
             h1 {
-                font-size: 2rem;
+                font-size: 1.5rem;
                 color: var(--Dark-blue);
                 font-family: 'Manrope', sans-serif;
                 font-weight: 700;
@@ -39,6 +40,7 @@ main {
                     display: flex;
                     align-items: center;
                     gap: 1.5rem;
+                    
                     img {
                         width: 40px;
                         border-radius: 50%;
@@ -49,14 +51,56 @@ main {
                 }
             }
             .share{
-                padding: 0.8rem;
-                cursor: pointer;
                 &__btn{
-                    border-radius: 50%;
+                    background-color: var(--Light-Grayish-blue);
+                    height: 30px;
+                    width: 30px;
                     padding: 0.5rem;
+                    border-radius: 50%;
                     border: none;
+                    cursor: pointer;
                 }
             }
         }
+    }
+    @media(max-width:970px){
+    .article {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        align-items: center;
+        margin-top: 2rem;
+        &__img{
+            width: 100%;
+            background-image: url("../src/assets/images/drawers.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            height: 280px;
+        }
+        &__contant{
+            background: var(--White-blue);
+            max-width: 100%;
+            height: 100%;
+            
+            h1{
+                font-size: 18px;
+                font-weight: 700;
+                font-family: 'Manrope', sans-serif;
+            }
+            .title {
+                font-size: 12px;
+                line-height: 1.4rem;
+                font-weight: 500;
+                font-family: 'Manrope', sans-serif;
+                
+
+            }
+        }
+    }
+
     }
 }
